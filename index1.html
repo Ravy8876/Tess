@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Amazing Girlfriend</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dear [Her Name],</h1>
+            <p class="subheading">A special website just for you!</p>
+        </header>
+        <main>
+            <section class="message">
+                <h2>Why You're So Special</h2>
+                <p>There are countless reasons why you mean the world to me. Your kindness, your smile, and the way you care for others are just a few of the many things I adore about you.</p>
+                <p>Every moment with you is a treasure. You make my life brighter and more beautiful just by being in it. I’m so grateful for your love and the joy you bring into my life.</p>
+            </section>
+            
+            <section class="gallery">
+                <h2>Our Moments</h2>
+                <div class="gallery-images">
+                    <img src="https://via.placeholder.com/300" alt="Sweet Image">
+                    <img src="https://via.placeholder.com/300" alt="Sweet Image">
+                    <img src="https://via.placeholder.com/300" alt="Sweet Image">
+                </div>
+            </section>
+
+            <section class="quotes">
+                <h2>Some Sweet Quotes</h2>
+                <blockquote>
+                    <p>"You are my sunshine on a rainy day."</p>
+                    <footer>— Unknown</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"In you, I've found my forever."</p>
+                    <footer>— Unknown</footer>
+                </blockquote>
+                <blockquote>
+                    <p>"You make my heart smile."</p>
+                    <footer>— Unknown</footer>
+                </blockquote>
+            </section>
+            
+            <section class="compliments">
+                <h2>Compliments Just for You</h2>
+                <p>Your laughter is my favorite sound, and your smile is my favorite sight. You light up every room you walk into and make every moment feel magical.</p>
+                <p>Whenever you doubt yourself, remember that you are incredible just the way you are. You are loved more than you can ever imagine, and you bring so much happiness into my life.</p>
+                <p>There is no one else I would rather share my life with. Your love and warmth mean everything to me, and I am so lucky to have you.</p>
+            </section>
+            
+            <section class="interactive">
+                <h2>Interactive Love</h2>
+                <p>Click the button below to see a special message just for you!</p>
+                <button id="revealMessage">Reveal Message</button>
+                <div id="hiddenMessage" class="hidden">
+                    <p>You're my everything and more. I hope this message brings a smile to your face and warmth to your heart. I love you endlessly!</p>
+                </div>
+            </section>
+            
+            <section class="footer">
+                <p>With all my love,</p>
+                <p>[Your Name]</p>
+            </section>
+        </main>
+    </div>
+    <script>
+        document.getElementById('revealMessage').addEventListener('click', function() {
+            document.getElementById('hiddenMessage').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
